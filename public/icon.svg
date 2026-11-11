@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1d4ed8" />
+      <stop offset="50%" stop-color="#4338ca" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <!-- Background with rounded corners -->
+  <rect width="512" height="512" rx="128" fill="url(#bg)"/>
+  
+  <!-- Stylized Modern Connected Car Icon -->
+  <g transform="translate(64, 96)" filter="url(#shadow)">
+    <!-- Signal pulse / Connected Fleet wave -->
+    <path d="M142 40 A80 80 0 0 1 242 40" stroke="#93c5fd" stroke-width="14" stroke-linecap="round" fill="none" opacity="0.8"/>
+    <path d="M167 65 A45 45 0 0 1 217 65" stroke="#bfdbfe" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.9"/>
+    
+    <!-- Car Body -->
+    <path d="M50 190 
+             L95 110 
+             C105 92 122 82 145 82 
+             L239 82 
+             C262 82 279 92 289 110 
+             L334 190 
+             C350 195 360 210 360 226 
+             L360 270 
+             C360 280 352 288 342 288 
+             L334 288 
+             C334 308 318 324 298 324 
+             C278 324 262 308 262 288 
+             L122 288 
+             C122 308 106 324 86 324 
+             C66 324 50 308 50 288 
+             L42 288 
+             C32 288 24 280 24 270 
+             L24 226 
+             C24 210 34 195 50 190 Z" 
+          fill="#ffffff"/>
+          
+    <!-- Windshield -->
+    <path d="M106 122 
+             L72 182 
+             L312 182 
+             L278 122 
+             C272 112 262 106 250 106 
+             L134 106 
+             C122 106 112 112 106 122 Z" 
+          fill="#1e293b"/>
+          
+    <!-- Headlights -->
+    <rect x="44" y="212" width="46" height="20" rx="10" fill="#38bdf8"/>
+    <rect x="294" y="212" width="46" height="20" rx="10" fill="#38bdf8"/>
+    
+    <!-- Front Grille -->
+    <rect x="132" y="224" width="120" height="18" rx="6" fill="#cbd5e1"/>
+    
+    <!-- Wheels -->
+    <circle cx="86" cy="288" r="26" fill="#0f172a"/>
+    <circle cx="86" cy="288" r="12" fill="#e2e8f0"/>
+    <circle cx="298" cy="288" r="26" fill="#0f172a"/>
+    <circle cx="298" cy="288" r="12" fill="#e2e8f0"/>
+  </g>
+</svg>

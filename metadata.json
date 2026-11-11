@@ -1,0 +1,6 @@
+{
+  "name": "FleetFlow 법인차량 스마트 배차·운행관리 솔루션",
+  "description": "법인차량 실시간 예약, 운행 전후 계기판·외관 사진 검수 및 국세청 법정 양식 업무용 승용차 운행기록부 자동 생성 통합 관제 시스템",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": []
+}
